@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/isajjad1246.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/isajjad1246.github.io/static/js/main.91093643.js",
+    "main.css": "/isajjad1246.github.io/static/css/main.c67a1eaf.css",
+    "main.js": "/isajjad1246.github.io/static/js/main.3570e6be.js",
     "static/js/453.96453769.chunk.js": "/isajjad1246.github.io/static/js/453.96453769.chunk.js",
-    "static/media/logo.svg": "/isajjad1246.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/my_headshot.jpeg": "/isajjad1246.github.io/static/media/my_headshot.d5b386070a6feba9bcd7.jpeg",
     "index.html": "/isajjad1246.github.io/index.html",
-    "main.f855e6bc.css.map": "/isajjad1246.github.io/static/css/main.f855e6bc.css.map",
-    "main.91093643.js.map": "/isajjad1246.github.io/static/js/main.91093643.js.map",
+    "main.c67a1eaf.css.map": "/isajjad1246.github.io/static/css/main.c67a1eaf.css.map",
+    "main.3570e6be.js.map": "/isajjad1246.github.io/static/js/main.3570e6be.js.map",
     "453.96453769.chunk.js.map": "/isajjad1246.github.io/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.91093643.js"
+    "static/css/main.c67a1eaf.css",
+    "static/js/main.3570e6be.js"
   ]
 }
