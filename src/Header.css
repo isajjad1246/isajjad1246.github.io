@@ -1,0 +1,18 @@
+.header {
+  background-color: #3333033e;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.header-nav {
+    display: flex;
+    gap: 2rem; /* Adjust spacing as needed */
+}
+
+.header-nav a {
+    color: inherit;
+    text-decoration: none;
+}
