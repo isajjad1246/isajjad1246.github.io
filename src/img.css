@@ -1,0 +1,4 @@
+img {
+    max-width: 20%; /* Ensures the image doesn't exceed its container's width */
+    height: auto; 
+}
