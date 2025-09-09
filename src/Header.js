@@ -1,21 +1,28 @@
 import React from 'react';
 import './Header.css';
-
-{/* Header will go here */}
-
-
-export default Header;
-
+// Remove the Link import since you won't need React Router for single-page scrolling
 
 function Header() {
+    const scrollToSection = (sectionId) => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+            element.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start' 
+            });
+        }
+    };
+
     return (
-         <header className="header">
+        <header className="header">
             <nav className="header-nav">
-                <a href="/about">About</a>
-                <a href="/home">Home</a>
-                <a href="/contact">Contact</a>
+                <button onClick={() => scrollToSection('home')}>Home</button>
+                <button onClick={() => scrollToSection('about')}>About</button>
+                <button onClick={() => scrollToSection('experience')}>Experience</button>
+                <button onClick={() => scrollToSection('contact')}>Contact</button>
             </nav>
         </header>
     );
 }
 
+export default Header;

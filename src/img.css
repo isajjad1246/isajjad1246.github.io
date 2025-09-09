@@ -1,4 +1,6 @@
 img {
-    max-width: 20%; /* Ensures the image doesn't exceed its container's width */
-    height: auto; 
+    width: 200px; /* or whatever size you want */
+    height: 200px; /* Same as width for perfect circle */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image fills the circle nicely */
 }

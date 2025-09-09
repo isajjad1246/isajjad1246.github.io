@@ -41,3 +41,8 @@
     transform: rotate(360deg);
   }
 }
+
+section{
+    min-height: 150vh; /* 1.5x viewport height instead of 100vh */
+    padding: 20px;
+}
