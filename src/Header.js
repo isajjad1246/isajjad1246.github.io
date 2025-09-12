@@ -16,9 +16,9 @@ function Header() {
     return (
         <header className="header">
             <nav className="header-nav">
-                <button onClick={() => scrollToSection('home')}>Home</button>
-                <button onClick={() => scrollToSection('about')}>About</button>
-                <button onClick={() => scrollToSection('experience')}>Experience</button>
+                <button className='header_button' onClick={() => scrollToSection('home')}>Home</button>
+                <button className='header_button' onClick={() => scrollToSection('about')}>About</button>
+                <button className='header_button' onClick={() => scrollToSection('experience')}>Experience</button>
                 {/* <button onClick={() => scrollToSection('contact')}>Contact</button> */}
             </nav>
         </header>
