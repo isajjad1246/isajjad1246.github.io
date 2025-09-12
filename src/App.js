@@ -4,7 +4,7 @@ import Header from './Header';
 import Typewriter from './Typewriter';
 import img from './img.css';
 import Experience from './pages/Experience';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 import About from './About';
 import Home from './Home';
 
@@ -27,10 +27,10 @@ function App() {
           <Experience />
         </section>
 
-        <section id='contact'>
+        {/* <section id='contact'>
           <Contact />
-        </section>
-        
+        </section> */}
+
       </header>
     </div>
   );

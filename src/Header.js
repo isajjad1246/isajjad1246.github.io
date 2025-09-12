@@ -19,7 +19,7 @@ function Header() {
                 <button onClick={() => scrollToSection('home')}>Home</button>
                 <button onClick={() => scrollToSection('about')}>About</button>
                 <button onClick={() => scrollToSection('experience')}>Experience</button>
-                <button onClick={() => scrollToSection('contact')}>Contact</button>
+                {/* <button onClick={() => scrollToSection('contact')}>Contact</button> */}
             </nav>
         </header>
     );
