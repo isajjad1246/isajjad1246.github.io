@@ -6,23 +6,26 @@
     font-family: 'Arial', sans-serif;
     background-color: #e9efef6f;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
-    /* position: relative; */
+    position: relative;
 }
-/* 
+
 .box:after{
-    content:'\A';
-    position:absolute;
-    width:100%; height:100%;
-    top:0; left:0;
+   content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    top: 0; 
+    left: 0;
     border-radius: 15px 50px;
-    background:rgba(139, 141, 138, 0.6);
-    opacity:0;
+    background: rgba(139, 141, 138, 0.6);
+    opacity: 0;
     transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+    pointer-events: none;
 }
+
 .box:hover:after {
     opacity: 1;
-} */
+}
 
 .skill_box{
     border-radius: 15px 50px;
@@ -55,7 +58,7 @@
   position: relative;
   width: 800px;
   height: 150px;
-  transform-style: preserve-3d; /* ← You might be missing this! */
+  transform-style: preserve-3d; 
 }
 
 
@@ -76,3 +79,23 @@
 .card-wrapper.flipped {
   transform: rotateY(180deg); /* Whole card flips */
 }
+/* 
+.front-face:after, .back-face:after {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    top: 0; 
+    left: 0;
+    border-radius: 15px 50px;
+    background: rgba(139, 141, 138, 0.6);
+    opacity: 0;
+    transition: all 0.5s;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.card-wrapper:hover .front-face:after,
+.card-wrapper:hover .back-face:after {
+    opacity: 1;
+} */
