@@ -1,6 +1,8 @@
 import React from 'react';
 import './Experience.css';
 import { useState } from 'react';
+import bofa_logo from './logos/bofa_logo.jpg';
+import jnj_logo from './logos/jnj_logo.jpg';
 
 
 function Experience() {
@@ -29,6 +31,7 @@ function Experience() {
   onClick={handleFlip1}>
           <div class="front-face">
             <h5>Software Engineer @ Bank of America</h5>
+            {/* <img src="path_to_image.jpg" /> */}
             <h6>Technologies Used: Python, Java, SQL, Quartz Framework</h6>
           </div>
           <div class="back-face">
@@ -47,6 +50,7 @@ function Experience() {
   onClick={handleFlip2}>
           <div class="front-face">
             <h5>Software Engineer Intern @ Bank of America</h5>
+            {/* <img src="bofa_logo" /> */}
             <h6>Technologies Used: Python, Java, SQL</h6>
           </div>
           <div class="back-face">
@@ -66,6 +70,7 @@ function Experience() {
   onClick={handleFlip3}>
           <div class="front-face">
             <h5>Technology Intern @ Johnson and Johnson</h5>
+            {/* <img src="path_to_image.jpg" /> */}
             <h6>Technologies Used: Python, SQL</h6>
           </div>
           <div class="back-face">

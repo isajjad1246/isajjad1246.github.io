@@ -1,11 +1,11 @@
 .box{
     border: 2px solid black;
     border-radius: 15px 50px;
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
-    text-align: center;
+    text-align: unset;
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f9f9f993;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
 }
 
