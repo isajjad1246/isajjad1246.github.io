@@ -82,17 +82,17 @@ function Experience() {
 
       <div>
         <h2 align='center'>Technical Skills:</h2>
-        <div class='box'>Python</div>
-        <div class='box'>Java</div>
-        <div class='box'>SQL</div>
-        <div class='box'>HTML/CSS</div>
-        <div class='box'>JavaScript</div>
-        <div class='box'>Git/GitHub</div>
-        <div class='box'>Agile</div>
-        <div class='box'>JIRA</div>
-        <div class='box'>Unit Testing</div>
-        <div class='box'>Figma</div>
-        <div class='box'>Quartz</div>
+        <div class='skill_box'>Python</div>
+        <div class='skill_box'>Java</div>
+        <div class='skill_box'>SQL</div>
+        <div class='skill_box'>HTML/CSS</div>
+        <div class='skill_box'>JavaScript</div>
+        <div class='skill_box'>Git/GitHub</div>
+        <div class='skill_box'>Agile</div>
+        <div class='skill_box'>JIRA</div>
+        <div class='skill_box'>Unit Testing</div>
+        <div class='skill_box'>Figma</div>
+        <div class='skill_box'>Quartz</div>
 
 
       </div>

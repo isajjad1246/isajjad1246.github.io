@@ -1,11 +1,37 @@
 .box{
     border: 2px solid black;
+    border-radius: 15px 50px;
     padding: 20px;
     margin: 20px;
     text-align: center;
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+.skill_box{
+    border-radius: 15px 50px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #bab86c;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    position: relative;
+}
+.skill_box:after{
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    border-radius: 15px 50px;
+    background:rgba(139, 141, 138, 0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.skill_box:hover:after {
+    opacity: 1;
 }
 
 .card-wrapper {
