@@ -1,5 +1,7 @@
 import React from 'react';
 import './Header.css';
+import App from './App'
+// import ColorChanger from './DarkModeContext';
 // Remove the Link import since you won't need React Router for single-page scrolling
 
 function Header() {
@@ -19,7 +21,11 @@ function Header() {
                 <button className='header_button' onClick={() => scrollToSection('home')}>Home</button>
                 <button className='header_button' onClick={() => scrollToSection('about')}>About</button>
                 <button className='header_button' onClick={() => scrollToSection('experience')}>Experience</button>
-                {/* <button onClick={() => scrollToSection('contact')}>Contact</button> */}
+                {/* <button className='header_button' onClick={() => scrollToSection('resume')}>Resume</button> */}
+                <a href="https://drive.google.com/file/d/1oKx-251emuc4UbFYak2kU3nSsZwMgDzO/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <button className='header_button'>Resume</button>
+                </a>
+                {/* <ColorChanger toggleTheme={toggleTheme} /> */}
             </nav>
         </header>
     );

@@ -1,4 +1,5 @@
 import my_headshot from './my_headshot.jpeg';
+import my_profile_pic from './my_profile_pic.png';
 import './App.css';
 import Typewriter from './Typewriter';
 import img from './img.css';
@@ -9,7 +10,7 @@ import React from 'react';
 function Home() {
     return (
         <div>
-            <img src={my_headshot} alt="logo" />
+            <img src={my_profile_pic} alt="logo" />
             <p>
                 {/* enter main info here */}
                 <Typewriter text="Hi! My name is Ifrah. I'm a Software Engineer based in NYC. Let's connect!" speed={20} />

@@ -7,15 +7,25 @@ import Experience from './pages/Experience';
 // import Contact from './pages/Contact';
 import About from './About';
 import Home from './Home';
+import { useState } from 'react';
+// import './theme.css';
+// import ColorChanger from './DarkModeContext';
 
 
 function App() {
+  // const [isDarkMode, setIsDarkMode] = useState(true);
+
+  // const toggleTheme = () => {
+  //   setIsDarkMode(!isDarkMode);
+  // };
+
+  // className={isDarkMode ? 'theme-dark' : 'theme-light'}
   return (
-    <div className="App">
-      <Header />
+    <div > 
+      <Header/>
       <header className="App-header">
 
-        <section>
+        <section id='home'>
           <Home />
         </section>
 
@@ -27,10 +37,12 @@ function App() {
           <Experience />
         </section>
 
-        {/* <section id='contact'>
-          <Contact />
+
+        {/* <section id='resume'>
+          <Resume />
         </section> */}
 
+        
       </header>
     </div>
   );

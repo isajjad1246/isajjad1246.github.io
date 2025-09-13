@@ -12,7 +12,7 @@
   /* Remove any transform here - start at 0 degrees */
   transition: transform 0.6s;
   position: relative;
-  width: 200px;
+  width: 800px;
   height: 150px;
   transform-style: preserve-3d; /* ← You might be missing this! */
 }
@@ -26,6 +26,9 @@
 
 .back-face {
   transform: rotateY(180deg); /* Back starts rotated away */
+  font-size: small;
+  overflow-y: auto; /* adds scroll bar if needed */
+  padding: 10px; /* add some padding so text isn't touching edges */
 }
 
 .card-wrapper.flipped {
