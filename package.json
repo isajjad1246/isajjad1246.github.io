@@ -18,7 +18,7 @@
   "scripts": {
     "postbuild": "cp build/index.html build/404.html",
     "predeploy": "npm run build",
-    "deploy": "git add . && git commit -m 'Deploy latest build' && git push origin main",
+    "deploy": "cp -r build/* . && git add . && git commit -m 'Deploy' && git push origin main",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
