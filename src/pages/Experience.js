@@ -30,7 +30,9 @@ function Experience() {
         <div className={`card-wrapper ${isFlipped1 ? 'flipped' : ''}`}
   onClick={handleFlip1}>
           <div class="front-face">
-            <h5>Software Engineer @ Bank of America</h5>
+            <p>
+              Software Engineer @ Bank of America
+            </p>
             {/* <img src="path_to_image.jpg" /> */}
             <h6>Technologies Used: Python, Java, SQL, Quartz Framework</h6>
           </div>
@@ -49,7 +51,7 @@ function Experience() {
         <div className={`card-wrapper ${isFlipped2 ? 'flipped' : ''}`}
   onClick={handleFlip2}>
           <div class="front-face">
-            <h5>Software Engineer Intern @ Bank of America</h5>
+            <p>Software Engineer Intern @ Bank of America</p>
             {/* <img src="bofa_logo" /> */}
             <h6>Technologies Used: Python, Java, SQL</h6>
           </div>
@@ -69,7 +71,7 @@ function Experience() {
         <div className={`card-wrapper ${isFlipped3 ? 'flipped' : ''}`}
   onClick={handleFlip3}>
           <div class="front-face">
-            <h5>Technology Intern @ Johnson and Johnson</h5>
+            <p>Technology Intern @ Johnson and Johnson</p>
             {/* <img src="path_to_image.jpg" /> */}
             <h6>Technologies Used: Python, SQL</h6>
           </div>
