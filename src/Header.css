@@ -1,5 +1,5 @@
 .header {
-  background-color: #3333033e;
+  background-color: #FFD1DC;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,7 @@
 }
 
 .header_button{
-    background-color: #3333033e; /* Green */
+    background-color: #b85e73; /* Pink */
     border: none;
     color: black;
     padding: 10px 20px;
