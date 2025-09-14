@@ -38,7 +38,7 @@ function Experience() {
             <div class='company-logo'>
               <img class='logo' src={bofa_logo} alt="Bank of America Logo" />
             </div>
-            <h6 class='job-year'>July 2024 - Present</h6>
+            <h6 class='job-year'>Jul 2024 - Present</h6>
           </div>
           <div class="back-face">
             <ul>
@@ -61,7 +61,7 @@ function Experience() {
             <div class='company-logo'>
               <img class='logo' src={bofa_logo} alt="Bank of America Logo" />
             </div>
-            <h6 class='job-year'>June 2023 - August 2023</h6>
+            <h6 class='job-year'>Jun 2023 - Aug 2023</h6>
           </div>
           <div class="back-face">
             <ul>
@@ -85,7 +85,7 @@ function Experience() {
             <div class='company-logo'>
               <img class='logo' src={jnj_logo} alt="Johnson and Johnson Logo" />
             </div>
-            <h6 class='job-year'>May 2022 - August 2022</h6>
+            <h6 class='job-year'>May 2022 - Aug 2022</h6>
           </div>
           <div class="back-face">
             <ul>

@@ -10,8 +10,9 @@ img {
     height: 80px; /* Same as width for perfect circle */
     border-radius: 50%;
     object-fit: cover; /* Ensures image fills the circle nicely */
-    margin: 0;
+    margin-bottom: 10%;
     text-align: left;
+    margin-top: -50px; 
 
 }
 
