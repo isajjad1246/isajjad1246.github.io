@@ -1,5 +1,5 @@
 import my_headshot from './my_headshot.jpeg';
-import my_profile_pic from './my_profile_pic.png';
+import my_profile_pic from './my_pic.png';
 import './App.css';
 import Typewriter from './Typewriter';
 import img from './img.css';

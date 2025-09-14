@@ -4,3 +4,14 @@ img {
     border-radius: 50%;
     object-fit: cover; /* Ensures image fills the circle nicely */
 }
+
+.logo {
+    width: 80px; /* or whatever size you want */
+    height: 80px; /* Same as width for perfect circle */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image fills the circle nicely */
+    margin: 0;
+    text-align: left;
+
+}
+

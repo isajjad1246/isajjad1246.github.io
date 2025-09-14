@@ -37,12 +37,6 @@ function App() {
         <section id='experience'>
           <Experience />
         </section>
-
-
-        {/* <section id='resume'>
-          <Resume />
-        </section> */}
-
         
       </header>
     </div>

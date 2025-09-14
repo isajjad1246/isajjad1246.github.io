@@ -25,16 +25,20 @@ function Experience() {
   return (
     <div class="card-container">
       <h1>Experience</h1>
-      
+
       <div class="box">
         <div className={`card-wrapper ${isFlipped1 ? 'flipped' : ''}`}
-  onClick={handleFlip1}>
+          onClick={handleFlip1}>
           <div class="front-face">
-            <p>
-              Software Engineer @ Bank of America
+            <p class='job-title'>
+              Software Engineer - Bank of America
             </p>
-            {/* <img src="path_to_image.jpg" /> */}
-            <h6>Technologies Used: Python, Java, SQL, Quartz Framework</h6>
+            <p class='team-name' >Equity Swaps Technology</p>
+
+            <div class='company-logo'>
+              <img class='logo' src={bofa_logo} alt="Bank of America Logo" />
+            </div>
+            <h6 class='job-year'>July 2024 - Present</h6>
           </div>
           <div class="back-face">
             <ul>
@@ -49,11 +53,15 @@ function Experience() {
 
       <div class="box">
         <div className={`card-wrapper ${isFlipped2 ? 'flipped' : ''}`}
-  onClick={handleFlip2}>
+          onClick={handleFlip2}>
           <div class="front-face">
-            <p>Software Engineer Intern @ Bank of America</p>
-            {/* <img src="bofa_logo" /> */}
-            <h6>Technologies Used: Python, Java, SQL</h6>
+            <p class='job-title'>Software Engineer Intern - Bank of America</p>
+            <p class='team-name'>Equity Services Technology</p>
+
+            <div class='company-logo'>
+              <img class='logo' src={bofa_logo} alt="Bank of America Logo" />
+            </div>
+            <h6 class='job-year'>June 2023 - August 2023</h6>
           </div>
           <div class="back-face">
             <ul>
@@ -69,11 +77,15 @@ function Experience() {
 
       <div class="box">
         <div className={`card-wrapper ${isFlipped3 ? 'flipped' : ''}`}
-  onClick={handleFlip3}>
+          onClick={handleFlip3}>
           <div class="front-face">
-            <p>Technology Intern @ Johnson and Johnson</p>
-            {/* <img src="path_to_image.jpg" /> */}
-            <h6>Technologies Used: Python, SQL</h6>
+            <p class='job-title'>Technology Intern - Johnson & Johnson</p>
+            <p class='team-name'>Data & Analytics</p>
+
+            <div class='company-logo'>
+              <img class='logo' src={jnj_logo} alt="Johnson and Johnson Logo" />
+            </div>
+            <h6 class='job-year'>May 2022 - August 2022</h6>
           </div>
           <div class="back-face">
             <ul>
@@ -83,7 +95,7 @@ function Experience() {
             </ul>
           </div>
 
-          
+
         </div>
       </div>
 

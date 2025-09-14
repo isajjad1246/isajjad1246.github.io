@@ -61,6 +61,12 @@
   transform-style: preserve-3d; 
 }
 
+.front-face{
+  display: grid;
+  grid-template-columns: 1fr auto; /* Left column flexible, right column fits content */
+  grid-template-rows: auto 1fr; /* Top row for title/year, bottom for logo/team */
+  gap: 15px;
+}
 
 .front-face, .back-face {
   position: absolute;
@@ -79,23 +85,27 @@
 .card-wrapper.flipped {
   transform: rotateY(180deg); /* Whole card flips */
 }
-/* 
-.front-face:after, .back-face:after {
-    content: '';
-    position: absolute;
-    width: 100%; 
-    height: 100%;
-    top: 0; 
-    left: 0;
-    border-radius: 15px 50px;
-    background: rgba(139, 141, 138, 0.6);
-    opacity: 0;
-    transition: all 0.5s;
-    pointer-events: none;
-    z-index: 1;
+
+.job-title {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 18px;
+  font-weight: bold;
+  align-self: start;
+}
+.job-year {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 14px;
+  text-align: right;
+  align-self: start;
 }
 
-.card-wrapper:hover .front-face:after,
-.card-wrapper:hover .back-face:after {
-    opacity: 1;
-} */
+.team-name {
+  font-size: 14px;
+  color: #666;
+}
+
+.p{
+  line-height: 1.2;
+}
